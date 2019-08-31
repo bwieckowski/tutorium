@@ -17,7 +17,7 @@ const Layout = (props: LayoutProps) => (
     <div>
       <main>{props.children}</main>
       <P.StyledFooter>
-        © Tutorium {new Date().getFullYear()} 2019 wszelkie prawa zastrzeżone
+        © Tutorium {new Date().getFullYear()} wszelkie prawa zastrzeżone
       </P.StyledFooter>
     </div>
   </>

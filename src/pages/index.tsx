@@ -11,7 +11,7 @@ import Opinions from "modules/Opinions"
 import Contact from "modules/Contact";
 import {  Element, animateScroll as scroll } from "react-scroll";
 
-const aboutMeHandler = () => { console.log("klik"); scroll.scrollToBottom() };
+const aboutMeHandler = () => { scroll.scrollToBottom() };
 
 const IndexPage = () => (
   <Layout>
